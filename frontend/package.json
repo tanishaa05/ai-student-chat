@@ -1,0 +1,28 @@
+{
+  "name": "ai-chat-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^4.0.0",
+    "react-scripts": "^5.0.1",
+    "socket.io": "^4.6.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
